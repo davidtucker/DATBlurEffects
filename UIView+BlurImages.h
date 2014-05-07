@@ -4,7 +4,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DATBlurredActivityIndicatorView.h"
 
 typedef enum {
     DATBlurTypeUndefined = 0,

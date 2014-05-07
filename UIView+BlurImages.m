@@ -5,7 +5,6 @@
 
 #import "UIView+BlurImages.h"
 #import "UIImage+ImageEffects.h"
-#import "DATBlurredActivityIndicatorView.h"
 
 @implementation UIView (BlurImages)
 
