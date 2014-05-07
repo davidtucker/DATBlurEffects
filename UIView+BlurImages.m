@@ -14,7 +14,7 @@
     UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, self.window.screen.scale);
 
     // There he is! The new API method
-    [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:NO];
+    [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:YES];
 
     UIImage *snapshotImage = UIGraphicsGetImageFromCurrentImageContext();
     UIImage *blurredSnapshotImage = nil;
